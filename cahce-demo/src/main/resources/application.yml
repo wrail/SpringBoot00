@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql:///cache?serverTimezone=GMT&useSSL=FALSE
+    password: wrial.qq.com
+    type: com.zaxxer.hikari.HikariDataSource
+
+#开启驼峰命名
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
